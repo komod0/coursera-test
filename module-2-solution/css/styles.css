@@ -1,0 +1,94 @@
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+margin: 20px;
+text-align: center;
+font-size: 1.75em;
+font-family: corbel, sans-serif;
+}
+
+.container {
+	margin:0px;
+	padding: 0px;
+}
+
+.container > div {
+	border: 1px solid black;
+	font-family: candara, sans-serif;
+	float: left;
+	margin: 15px;
+	padding: 20px;
+	padding-top: 10px;
+	position: relative;
+	background-color: rgba(103,55,150,0.65);
+	font-size: 1em;
+	
+}
+
+.text {
+	position: relative;
+	top: 15px;
+	}
+
+.right-title {
+	border: 1px solid black;
+	right: 0px;
+	top: 0px;
+	position: absolute;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 1.25em;
+	font-weight: bold;
+	border-right: none;
+	border-top: none;
+}
+
+.lola {
+	background-color: aqua;
+}
+
+.lion {
+	background-color: #a5411a;
+}
+
+.mint {
+	background-color: green;
+}
+
+
+
+@media (min-width: 992px) {
+	.container > div {
+		width: 30%;
+		margin: 1.666%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container > div {
+		width: 45%;
+		margin: 2.5%;
+
+	}
+
+	#tablet {
+		width: 95%;
+		margin: 2.5%
+
+	}
+
+}
+
+@media (max-width: 767px) {
+	.container > div {
+		width: 95%;
+		margin: 2.5%;
+	}
+}
